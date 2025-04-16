@@ -37,3 +37,5 @@ If a specific emotion exceeds the configured threshold, a message is sent to Tel
 
 The message includes a suggestion or emotional support text.
 
+📦 Run the app
+python kael_alert.py
