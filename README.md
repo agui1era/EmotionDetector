@@ -25,3 +25,15 @@ When a significant emotion is detected, it sends a personalized message to a con
 git clone https://github.com/agui1era/EmotionDetector.git
 cd EmotionDetector
 pip install -r requirements.txt
+
+TELEGRAM_TOKEN=your_bot_token
+TELEGRAM_CHAT_ID=your_chat_id
+🎥 How It Works
+The webcam opens and starts detecting faces.
+
+Emotions are analyzed in real time using DeepFace.
+
+If a specific emotion exceeds the configured threshold, a message is sent to Telegram.
+
+The message includes a suggestion or emotional support text.
+
